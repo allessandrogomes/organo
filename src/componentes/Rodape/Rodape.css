@@ -1,0 +1,46 @@
+.rodape-principal {
+    background-color: #6278F7;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.redes {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#gh {
+    width: 30px;
+    height: 30px;
+}
+
+#lk {
+    width: 27px;
+    height: 27px;
+}
+
+#ig {
+    width: 25px;
+    height: 25px;
+}
+
+#org {
+    width: 130px;
+}
+
+.texto__rodape {
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+    .rodape-principal {
+        flex-direction: column;
+    }
+}
